@@ -14,7 +14,7 @@ This theme includes the following features:
 - Configuration based architechture
 - Modular CSS via [Sass](http://sass-lang.com/)
 - Task runner uses [Gulp](http://gulpjs.com/)
-- Uses [Bourbon](http://bourbon.io/) and Neat
+- Uses [Bourbon](http://bourbon.io/) and [Neat](http://neat.bourbon.io/)
 
 ## Dependencies
 
