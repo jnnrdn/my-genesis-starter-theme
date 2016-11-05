@@ -1,0 +1,8 @@
+# Sass cache
+.sass-cache/
+
+# Development files
+/assets/vendor/
+
+# Other
+.DS_Store
