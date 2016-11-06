@@ -1,4 +1,4 @@
-/* ## Featured Content
+/* ## Featured Content Widget
 --------------------------------------------- */
 
 .featured-content {
@@ -12,7 +12,6 @@
   }
 
   .entry-title {
-    font-size: 20px;
-    font-size: 2rem;
+    font-size: rem($featContent__EntryTitle__FontSize);
   }
 }
