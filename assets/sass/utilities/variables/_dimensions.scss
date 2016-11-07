@@ -1,6 +1,37 @@
 //
 // Dimension Variables
-//=====================
+//====================
+
+$baseWidth: 1280;
+$gutter: 40px;
+
+//
+// Max Widths
+//====================
+$maxWidth: $baseWidth + px;
+$maxWidth__LargerScreen: $baseWidth * 0.890625 + px;
+$maxWidth__LargeScreen: $baseWidth * 0.75 + px;
+$maxWidth__MediumScreen: $baseWidth * 0.625 + px;
+$maxWidth__LandingPage: $baseWidth * 0.625 + px;
+
+//
+// Content Widths
+//====================
+$content__Width: $baseWidth * 0.6875 + px;
+$content__LargerScreenWidth: 800px;
+$content__LargeScreenWidth: 620px;
+
+$content__TwoSidebars__Width: 660px;
+$content__TwoSidebars__LargerScreenWidth: 580px;
+$content__TwoSidebars__LargeScreenWidth: 400px;
+
+$primarySidebar__Width: $baseWidth * 0.28125 + px;
+$primarySidebar__LargerScreenWidth: 300px;
+$secondarySidebar__Width: $baseWidth * 0.140625 + px;
+
+$contentSidebarWrap__Width: 1060px;
+$contentSidebarWrap__LargerScreenWidth: $baseWidth * 0.71875 + px;
+$contentSidebarWrap__LargeScreenWidth: $baseWidth * 0.578125 + px;
 
 // Header module
 $titleArea__Width: 300px;

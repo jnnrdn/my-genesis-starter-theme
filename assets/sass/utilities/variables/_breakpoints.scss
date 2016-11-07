@@ -1,25 +1,5 @@
 //
 // Breakpoints
-//
-// Credit:
-// https://github.com/WebDevStudios/wd_s/blob/master/assets/sass/utilities/variables/_breakpoints.scss
-// https://github.com/hellofromtonya/hello-child-theme/blob/master/assets/sass/utilities/variables/_breakpoints.scss
 //=====================
 
-$large-desktop: rem(1680);
-$desktop: rem(1366);
-$tablet-landscape: rem(1024);
-$wp-admin-bar: rem(783);
-$tablet-portrait: rem(768);
-$phone-landscape: rem(640);
-$phone-portrait: rem(360);
 
-
-// Global Screen Sizes
-//------------------------------------------------------------------------------
-$smallest-screen: $max-width - 820px; // 320px;
-$smaller-screen: $max-width - 660px; // 480px;
-$small-screen: $max-width - 380px; // 760px;
-$medium-screen: $max-width - 117px; // 1023px
-$large-screen: $max-width + 40px; // 1180px
-$huge-screen: $max-width + 460px; // 1600px
