@@ -14,4 +14,9 @@
   input[type="url"] {
     width: 50%;
   }
+
+  @media only screen and (max-width: $smallScreen) {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
 }

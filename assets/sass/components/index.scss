@@ -2,14 +2,17 @@
 // Component Modules
 //============================
 
+@import "avatar";
+@import "breadcrumbs";
+@import "buttons";
+@import "accessibility/index";
+@import "after-entry/index";
+@import "author-box/index";
 @import "comments/index";
 @import "content/index";
 @import "footer/index";
 @import "header/index";
 @import "navigation/index";
-@import "widgets/index";
-@import "buttons";
-@import "accessibility/index";
 @import "sidebars/index";
-@import "footer/index";
+@import "widgets/index";
 @import "print";

@@ -1,15 +1,26 @@
-//
-// Base
-//============================
 $white = #fff;
 $black = #333;
-
-$base__color = #333;
 
 $link__color: #c3251d;
 $link__hoverColor: #333;
 
+// Elements
+$base__color = #333;
 $body__backgroundColor: #eee;
+
+// Form Elements
+$input__BackgroundColor: $white;
+$input__BorderColor: #ddd;
+$input__Color: $black;
+$input__FocusBorderColor: #ddd;
+
+$button__BackgroundColor: #333;
+$button__Color: $white;
+$button__HoverBackgroundColor: #c3251d;
+$button__HoverColor: $white;
+$button__DisabledBackgroundColor: #eee;
+$button__DisabledColor: #777;
+
 
 //
 // Site Header
@@ -86,3 +97,11 @@ $enews__SubmitButton__BackgroundColor: #c3251d;
 $enews__SubmitButton__Color: $white;
 $enews__SubmitButton__HoverBackgroundColor: $white;
 $enews__SubmitButton__HoverColor: $black;
+
+//
+// General components
+//=============================
+$breadcrumbs__BackgroundColor: $white;
+$authorBox__BackgroundColor: $white;
+$afterEntry__BackgroundColor: $white;
+$archiveDescription__BackgroundColor: $white;
