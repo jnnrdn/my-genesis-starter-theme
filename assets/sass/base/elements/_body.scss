@@ -1,28 +1,28 @@
 html {
-  font-size: $html__FontSize;
+  font-size: $html--font-size;
   /* 10px browser default */
 }
 
 body {
-  background-color: $body__backgroundColor;
-  color: $base__color;
-  font-family: $base__FontFamily;
-  font-size: rem($base__FontSize);
+  background-color: $body--background-color;
+  color: $base--color;
+  font-family: $base--font-family;
+  font-size: rem($base--font-size);
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
-  line-height: $base__LineHeight;
+  line-height: $base--line-height;
   margin: 0;
 
   @media screen and (max-width: $smallScreen) {
-    font-size: rem( $base__FontSize__SmallScreen );
+    font-size: rem( $base--font-size--small-screen );
   }
 
   /* Chrome fix */
   > div {
-    font-size: $baseDiv__FontSize;
+    font-size: $base__div--font-size;
 
     @media screen and (max-width: $smallScreen) {
-      font-size: $baseDiv__FontSize__SmallScreen;
+      font-size: $base__div--font-size--small-screen;
     }
   }
 }

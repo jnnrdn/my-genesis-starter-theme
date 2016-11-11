@@ -4,8 +4,8 @@
 
 .entry-footer {
   .entry-meta {
-    border-top: 1px solid $entryMeta__FooterBorderColor;
-    font-size: rem( $entryMeta__FooterFontSize );
+    border-top: 1px solid $entry-footer__meta--border-color;
+    font-size: rem( $entry-footer__entry-meta--font-size );
     margin-bottom: 0;
     padding-top: 24px;
   }

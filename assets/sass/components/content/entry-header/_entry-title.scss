@@ -3,15 +3,15 @@
 //==========================
 
 .entry-title {
-  font-size: rem( $entryTitle__FontSize );
+  font-size: rem( $entry-title--font-size );
 
   a {
-    color: $entryTitle_LinkColor; //#333;
+    color: $entry-title--link-color; //#333;
     text-decoration: none;
 
     &:hover,
     &:focus {
-      color: $entryTitle_HoverColor;
+      color: $entry-title--hover-color;
     }
   }
 }

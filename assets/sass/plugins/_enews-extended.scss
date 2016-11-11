@@ -2,10 +2,10 @@
 --------------------------------------------- */
 
 .sidebar .enews-widget {
-  background-color: $enews__BackgroundColor;
+  background-color: $enews--background-color;
 
   &, .widget-title {
-    color: $enews__WidgetTitleColor;
+    color: $enews__widget-title--color;
   }
 
   input,
@@ -27,7 +27,7 @@
 
 .enews-widget {
   input {
-    font-size: rem( $enews__FontSize);
+    font-size: rem( $enews--font-size);
     margin-bottom: 16px;
 
     &[type="submit"] {

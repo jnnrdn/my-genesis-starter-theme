@@ -2,8 +2,8 @@
 ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-  background-color: $footerWidgets__BackgroundColor;
-  font-size: rem( $footerWidgets_FontSize );
+  background-color: $footer-widgets--background-color;
+  font-size: rem( $footer-widgets--font-size );
   clear: both;
   padding: 60px 0;
 }
@@ -11,14 +11,14 @@
 .footer-widgets-1,
 .footer-widgets-2,
 .footer-widgets-3 {
-  width: $footerWidgets__Width;
+  width: $footer-widgets__Width;
 
   @media only screen and (max-width: 1340px) {
     width: 340px;
   }
 
   @media only screen and (max-width: 1200px) {
-    width: $footerWidgets_Width_LargeScreens;
+    width: $footer-widgets_Width_LargeScreens;
   }
 
   @media only screen and (max-width: 1023px) {
