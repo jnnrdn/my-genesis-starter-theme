@@ -4,11 +4,11 @@
   float: right;
   width: $content--width;
 
-  @media screen and (max-width: $largerScreen) {
+  @media screen and (max-width: $screen-size--larger) {
     width: $content--width-larger-screen;
   }
 
-  @media screen and (max-width: $largeScreen) {
+  @media screen and (max-width: $screen-size--large) {
     width: $content--width-large-screen;
   }
 
@@ -17,11 +17,11 @@
   .sidebar-sidebar-content & {
     width: $content-both-sidebars--width;
 
-    @media screen and (max-width: $largerScreen) {
+    @media screen and (max-width: $screen-size--larger) {
       width: $content-both-sidebars--width-larger-screen;
     }
 
-    @media screen and (max-width: $largeScreen) {
+    @media screen and (max-width: $screen-size--large) {
       width: $content-both-sidebars--width-large-screen;
     }
   }

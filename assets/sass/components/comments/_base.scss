@@ -9,7 +9,7 @@
   font-size: rem( $comment--font-size );
   margin-bottom: 40px;
 
-  @media only screen and (max-width: $smallScreen) {
+  @media only screen and (max-width: $screen-size--small) {
     padding: 30px;
     margin-bottom: 5%;
   }

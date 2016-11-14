@@ -6,11 +6,11 @@
   .sidebar-sidebar-content & {
     width: $content__SidebarWrapWidth;
 
-    @media screen and (max-width: $largerScreen) {
+    @media screen and (max-width: $screen-size--larger) {
       width: $content-sidebar-wrap--width-larger-screen;
     }
 
-    @media screen and (max-width: $largeScreen) {
+    @media screen and (max-width: $screen-size--large) {
       width: $content-sidebar-wrap--width-large-screen;
     }
   }
