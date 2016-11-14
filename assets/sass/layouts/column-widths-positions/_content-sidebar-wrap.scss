@@ -7,11 +7,11 @@
     width: $content__SidebarWrapWidth;
 
     @media screen and (max-width: $largerScreen) {
-      width: $contentSidebarWrap__LargerScreenWidth;
+      width: $content-sidebar-wrap--width-larger-screen;
     }
 
     @media screen and (max-width: $largeScreen) {
-      width: $contentSidebarWrap__LargeScreenWidth;
+      width: $content-sidebar-wrap--width-large-screen;
     }
   }
 

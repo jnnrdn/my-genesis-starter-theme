@@ -3,18 +3,18 @@
 .site-inner,
 .wrap {
   margin: 0 auto;
-  max-width: $maxWidth;
+  max-width: $max-width;
 
   @media only screen and (max-width: $largerScreen) {
-    max-width: $maxWidth__LargerScreen;
+    max-width: $max-width-larger-screen;
   }
 
   @media only screen and (max-width: $largeScreen) {
-    max-width: $maxWidth__LargeScreen;
+    max-width: $max-width-large-screen;
   }
 
   @media only screen and (max-width: $mediumScreen) {
-    max-width: $maxWidth__MediumScreen;
+    max-width: $max-width--medium-screen;
   }
 }
 
@@ -36,5 +36,5 @@
 }
 
 .landing-page .site-inner {
-  max-width: $maxWidth__LandingPage;
+  max-width: $max-width__landing-page;
 }
