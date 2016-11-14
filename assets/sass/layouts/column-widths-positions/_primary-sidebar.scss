@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (max-width: $screen-size--larger) {
+@include media( $breakpoint__screen-size--larger ) {
   .sidebar-primary {
     width: $primary-sidebar--width-larger-screen;
   }

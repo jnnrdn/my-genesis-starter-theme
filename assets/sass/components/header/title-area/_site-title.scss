@@ -15,7 +15,7 @@
     text-decoration: none;
   }
 
-  @media only screen and (max-width: $screen-size--medium) {
+  @include media( $breakpoint__screen-size--medium ) {
     text-align: center;
   }
 }
