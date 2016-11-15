@@ -3,6 +3,7 @@
 
 # Development files
 /assets/vendor/
+/node_modules
 
 # Other
 .DS_Store
