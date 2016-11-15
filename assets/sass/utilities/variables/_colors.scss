@@ -1,12 +1,12 @@
 //
 // Base Colors
 //=======================
-$white = #fff;
-$black = #333;
-$gray--lighter = #eee;
-$gray--light = #ddd;
-$gray= #777;
-$red = #c3251d;
+$white: #fff;
+$black: #333;
+$gray--lighter: #eee;
+$gray--light: #ddd;
+$gray: #777;
+$red: #c3251d;
 
 //
 // Color Configuration
@@ -16,7 +16,7 @@ $link--color: $red;
 $link--hover-color: $black;
 
 // Elements
-$base--color = $black;
+$base--color: $black;
 $body--background-color: $gray--lighter;
 
 // Form Elements
