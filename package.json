@@ -1,0 +1,24 @@
+{
+  "name": "developers",
+  "version": "1.0.0",
+  "description": "Genesis by [Studiopress](http://www.studiopress.com/) is my framework of choice for building WordPress themes.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webjen/my-genesis-starter-theme.git"
+  },
+  "author": "jryden",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/webjen/my-genesis-starter-theme/issues"
+  },
+  "homepage": "https://github.com/webjen/my-genesis-starter-theme#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "bourbon": "^4.2.6",
+    "bourbon-neat": "^1.7.2"
+  }
+}

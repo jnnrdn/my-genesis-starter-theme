@@ -10,24 +10,24 @@
 
   input,
   input:focus {
-    border: 1px solid $enews__InputBorderColor;
+    border: 1px solid $enews__input--border-color;
   }
 
   input[type="submit"] {
-    background-color: $enews__SubmitBackgroundColor;
-    color: $enews__SubmitColor;
+    background-color: $enews__submit-button--background-color;
+    color: $enews__submit-button--color;
   }
 
   input:hover[type="submit"],
   input:focus[type="submit"] {
-    background-color: $enews__SubmitHoverBackgroundColor;
-    color: $enews__SubmitHoverColor;
+    background-color: $enews__submit-button--hover-background-color;
+    color: $enews__submit-button--hover-color;
   }
 }
 
 .enews-widget {
   input {
-    font-size: rem( $enews--font-size);
+    @include rem( font-size, $enews--font-size);
     margin-bottom: 16px;
 
     &[type="submit"] {
