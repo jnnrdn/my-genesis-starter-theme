@@ -29,6 +29,9 @@ This child theme requires the following frameworks
 
 ## Installation
 
+1. Download or clone from GitHub: https://github.com/webjen/my-genesis-starter-theme
+2. Run 'npm install' to install all components.
+
 ## Contributors
 
 All feedback, bug reports, and pull requests are welcome.
