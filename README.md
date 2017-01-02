@@ -45,7 +45,7 @@ Should you attempt to save a Sass-file that has errors in it you will get an err
 
 ### Configuration
 
-I have set up the Sass-folders in a way that makes most sense to me, but feel free to rename and/or rearrange them in a way that works for you. Just remember to update the index.scss files in each folder, and the style.scss file in the theme root accordingly, otherwise the theme will break.
+I have set up the Sass-folders in a way that makes most sense to me, but feel free to rename and/or rearrange them in a way that works for you. Just remember to update the *index.scss* files in each folder, and the *style.scss* file in the theme root accordingly, otherwise the theme will break.
 
 ## Installation
 
